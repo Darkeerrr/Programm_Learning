@@ -10,25 +10,25 @@ if (Convert.ToInt32(day) == 1)
 }
 if (Convert.ToInt32(day) == 2)
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Вторник");
 }
 if (Convert.ToInt32(day) == 3)
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Среда");
 }
 if (Convert.ToInt32(day) == 4)
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Четверг");
 }
 if (Convert.ToInt32(day) == 5)
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Пятница");
 }
 if (Convert.ToInt32(day) == 6)
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Субота");
 }
 if (Convert.ToInt32(day) == 7)
 {
-    Console.WriteLine("Понедельник");
+    Console.WriteLine("Воскресенье");
 }
