@@ -9,12 +9,12 @@ int a = 0; // каждые 5 смертей идёт проверка на вы�
 for (int shans = 0; smert < 100;smert++)
 {
     Console.WriteLine($"Блин {igrok} умер: {smert}");
-    a = smert % 5;
+    a = smert % 1;
     if (a <= 0)
     {
-     shans = rnd.Next(0, 10);
+     shans = rnd.Next(0, 100);
      Console.WriteLine(shans);
-     if (shans > 5)
+     if (shans > 80)
      {
         Console.WriteLine($"{igrok} покинул игру и нафидел: " + smert + "раз");
         break;
