@@ -14,7 +14,7 @@ double[] FillArray(int number)
     Random rnd = new Random();
     for (int i = 0; i < arr.Length; i++)
     {
-        arr[i] = rnd.NextDouble() * (10 - 0) + 0;
+        arr[i] = Math.Round(rnd.NextDouble() * (10 - 1) + 1, 2);
     }
     return arr;
 }
